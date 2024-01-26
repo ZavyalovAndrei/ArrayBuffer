@@ -1,4 +1,5 @@
-import { ErrorRepository } from "./js/ErrorRepository.js";
+import { ArrayBufferConverter } from "./js/ArrayBufferConverter.js";
+import { getBuffer } from "./js/app.js";
 
-const errors = new ErrorRepository();
-console.log(errors.translate(202));
+const converter = new EArrayBufferConverter(getBuffer());
+console.log(converter.toString());
